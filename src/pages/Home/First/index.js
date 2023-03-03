@@ -8,8 +8,8 @@ const First = () => {
 
     return (
         <div className={styles.div}>
-            <div className="h5 mt_200">Page DAO Presents the</div>
-            <div className="h2 h2_sm mt_15">Readme Books NFTBook Minter</div>
+            <div className="h5 mt_200"></div>
+            <div className="h2 h2_sm mt_15">NFT University Press NFTBook Minter</div>
             <a href="#wallet">
                 <Button value="Create your NFT"
                     style={{ width: 228, height: 56, marginTop: 50, marginLeft: 'auto', marginRight: 'auto' }}
@@ -19,11 +19,7 @@ const First = () => {
             <div className="h4">Create your NFT </div>
             <div className={styles.text}>
                 <div className="body_1">
-                    The PageDAO ReadMe Books NFTBook Minter is designed to give PageDAO Members the opportunity to collaborate in the creation of an NFTBook Collection the DAO owns on OpenSea.io.
-                    <br></br>
-                    1/3 of Royalties received by the DAO go to buy $PAGE.
-                    <br></br>
-                    *This open source technology is in beta, and does not like large files.
+                    The NFTBook Minter is designed to create NFT Books
                 </div>
             </div>
             <Link to="#" className="mt_20 body_1">Get started now.</Link>

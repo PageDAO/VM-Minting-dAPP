@@ -59,7 +59,7 @@ const PrivateRoute = ({ component: Component, ...restOfProps }) => {
                 // this was hardcoded to tokenid 0, should be the tokenid for this token - todo: put this in config "utils/web3/wallet"
                 console.log(CHAIN_ID);
                 console.log(ETHERSCAN_URL);
-                console.log(membershipContract._address);
+                console.log(membershipContract721._address);
                 if (membershipContract._address)
                 membershipContract?.methods.balanceOf(accountAddress, "111515117730074772965449733806193829182550002799402836500696112828456993030244").call().then(res => {
                     let hasMembership = (res > 0) ? true : false

@@ -25,11 +25,11 @@ switch (NET) {
         break;
 
     case 'polygon':
-        ComunityContractAddr = '0xEd5467Fd62250788EdaA228ae27a609A39B354B0'
-        UniftyContractAddr = '0x931204Fb8CEA7F7068995dcE924F0d76d571DF99'
-        MembershipContractAddr = '0x2953399124f0cbb46d2cbacd8a89cf0599974963'
-        Membership721ContractAddr = '0xd9ff4b61817ff3246d012ff8918e3e8b8dfa5a39'
-        MarketplaceContractAddr = ''
+        ComunityContractAddr = '0xD5a80A49cBA19079ab854796625A491555fDc626'
+        UniftyContractAddr = '0xE7659093db0C4f4c1608FAb55020011FfFD1c505'
+        MembershipContractAddr = ''
+        Membership721ContractAddr = '0x7ae0D588fCba36a24d4dEFa8199554e19a9e0855'
+        MarketplaceContractAddr = '0xa9121720327dC1f78BF5fC3731a363864BD8A72b'
         break;
 
 //todo: deploy community mint control to goerli - now test
