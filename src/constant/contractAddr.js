@@ -41,7 +41,7 @@ switch (NET) {
         MarketplaceContractAddr = '0xCFA7cA9fD5d32A6E9104aC849b1094Ea8c71e294'
         break;
         
-    case 'optimism':
+    case 'optimism-goerli':
         ComunityContractAddr = '0x71Cd0E367d7798D1ac2ffFcc5c52cD813cb3994c'
         UniftyContractAddr = '0x2528af315Bd2Aa8942F8598c4D349041A68DDce1'
         MembershipContractAddr = ''
