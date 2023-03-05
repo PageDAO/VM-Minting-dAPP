@@ -1,5 +1,5 @@
 const ALCHEMY_PRC_URL = "https://polygon-mainnet.g.alchemy.com/v2/f5LpbJ2eyEurydCMDameDYSJmLa8pPyS"
-const NET = 'polygon' // polygon, rinkeby, mumbai, goerli
+const NET = 'optimism' // polygon, optimism, mumbai, goerli
 // const API_URL = 'http://192.168.104.27:3001/api'
 // const API_URL = 'https://nftbb-minter-backend.herokuapp.com/api'
 // todo: change this to dev server
@@ -13,12 +13,12 @@ let ETHERSCAN_URL = ''
 let OPENSEA_URL = ''
 
 switch (NET) {
-  case 'rinkeby':
-    CHAIN_ID = 4
-    CHAIN_ID_HEX = '0x4'
-    ETHERSCAN_URL = 'https://rinkeby.etherscan.io/tx'
-    OPENSEA_URL = 'https://testnets.opensea.io/assets'
-    TOKEN_ID = 1
+  case 'optimism':
+    CHAIN_ID = 10
+    CHAIN_ID_HEX = '0xA'
+    ETHERSCAN_URL = 'https://optimism.etherscan.io/'
+    OPENSEA_URL = 'https://optimism.opensea.io/assets'
+    TOKEN_ID = 0
     break;
 
   case 'mumbai':
