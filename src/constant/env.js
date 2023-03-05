@@ -31,7 +31,7 @@ switch (NET) {
     
 case 'optimism goerli':
     CHAIN_ID = 420
-    CHAIN_ID_HEX = '0x01A4'
+    CHAIN_ID_HEX = '01A4'
     ETHERSCAN_URL = 'https://goerli-optimism.etherscan.io/'
     OPENSEA_URL = 'https://goerli-optimism.opensea.io/assets'
     TOKEN_ID = 0
