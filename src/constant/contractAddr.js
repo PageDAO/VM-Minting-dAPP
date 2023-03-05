@@ -42,11 +42,11 @@ switch (NET) {
         break;
         
     case 'optimism':
-        ComunityContractAddr = '0x75fFAF8711Cf9E0B36eaCdEf407f396F7628e976'
-        UniftyContractAddr = '0xE7F967Ed990C4db5262b592A3e5B70e29Dd585c3'
+        ComunityContractAddr = '0x71Cd0E367d7798D1ac2ffFcc5c52cD813cb3994c'
+        UniftyContractAddr = '0x2528af315Bd2Aa8942F8598c4D349041A68DDce1'
         MembershipContractAddr = ''
-        Membership721ContractAddr = '0x94A56cBd3bb49664f333c3B559F2bD8cb9Ae55a0'
-        MarketplaceContractAddr = '0xd24b3de085CFd8c54b94feAD08a7962D343E6DE0'
+        Membership721ContractAddr = '0x37bE2bb530fd7741Cc9dA85a3908214545B0E11b'
+        MarketplaceContractAddr = ''
         break;
 
     default:
