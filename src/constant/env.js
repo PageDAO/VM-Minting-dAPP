@@ -28,6 +28,14 @@ switch (NET) {
     OPENSEA_URL = 'https://testnets.opensea.io/assets/mumbai'
     TOKEN_ID = 0
     break;
+    
+case 'optimism goerli':
+    CHAIN_ID = 420
+    CHAIN_ID_HEX = '0x1A4'
+    ETHERSCAN_URL = 'https://goerli-optimism.etherscan.io/'
+    OPENSEA_URL = 'https://goerli-optimism.opensea.io/assets'
+    TOKEN_ID = 0
+    break;
 
   case 'polygon':
     CHAIN_ID = 137
