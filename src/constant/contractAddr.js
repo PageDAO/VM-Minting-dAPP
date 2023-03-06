@@ -42,7 +42,7 @@ switch (NET) {
         break;
         
     case 'optimism-goerli':
-        ComunityContractAddr = '0x71Cd0E367d7798D1ac2ffFcc5c52cD813cb3994c'
+        ComunityContractAddr = '0x3f13Ccdc61B40f72F44668330B62B54429Bed930'
         UniftyContractAddr = '0x84a8278CB03C91c750956857f017ceAa37144055'
         MembershipContractAddr = ''
         Membership721ContractAddr = '0x37bE2bb530fd7741Cc9dA85a3908214545B0E11b'
