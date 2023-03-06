@@ -46,7 +46,7 @@ switch (NET) {
         UniftyContractAddr = '0x84a8278CB03C91c750956857f017ceAa37144055'
         MembershipContractAddr = ''
         Membership721ContractAddr = '0x37bE2bb530fd7741Cc9dA85a3908214545B0E11b'
-        MarketplaceContractAddr = ''
+        MarketplaceContractAddr = '0xd24b3de085cfd8c54b94fead08a7962d343e6de0'
         break;
 
     default:
