@@ -17,11 +17,11 @@ switch (NET) {
         break;
 
     case 'mumbai':
-        ComunityContractAddr = '0xf659299E49A09beC21658E5506227F685A1728Ab'
-        UniftyContractAddr = '0x59d7cdff93d01c98f64617efb677d9de44d4795d'
-        MembershipContractAddr = '0x318acfd0a572fa257ea1ebb9c4c76a2458aaeedb'
-        Membership721ContractAddr = ''
-        MarketplaceContractAddr = ''
+        ComunityContractAddr = '0x8FE28E6781230D2d5f17ae8343186A9125338c42'
+        UniftyContractAddr = '0x24875CC895646fEA83ee1236dfAff71884909899'
+        MembershipContractAddr = ''
+        Membership721ContractAddr = '0xdf67df1C4cE31e98Fb39a47fb54c8bb6cFd2F677'
+        MarketplaceContractAddr = '0xd6a91Ce0e2C7846210cD6A3BC3882AeE2cad43af'
         break;
 
     case 'polygon':
