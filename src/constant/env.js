@@ -1,5 +1,5 @@
 const ALCHEMY_PRC_URL = "https://polygon-mainnet.g.alchemy.com/v2/f5LpbJ2eyEurydCMDameDYSJmLa8pPyS"
-const NET = 'optimism-goerli' // polygon, optimism, mumbai, goerli, goerli-optimism
+const NET = 'optimism-goerli' // polygon, optimism, mumbai, goerli, optimism-goerli
 // const API_URL = 'http://192.168.104.27:3001/api'
 // const API_URL = 'https://nftbb-minter-backend.herokuapp.com/api'
 // todo: change this to dev server
@@ -29,9 +29,9 @@ switch (NET) {
     TOKEN_ID = 0
     break;
     
-case 'optimism goerli':
+case 'optimism-goerli':
     CHAIN_ID = 420
-    CHAIN_ID_HEX = '0x1A4'
+    CHAIN_ID_HEX = '0x01A4'
     ETHERSCAN_URL = 'https://goerli-optimism.etherscan.io/'
     OPENSEA_URL = 'https://goerli-optimism.opensea.io/assets'
     TOKEN_ID = 0
