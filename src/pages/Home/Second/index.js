@@ -124,7 +124,7 @@ const Second = (props) => {
             const curGasPrice = await web3given.eth.getGasPrice()
             console.log("gasPrice:", curGasPrice)
 
-            const feeinwei = web3given.utils.toWei(web3given.utils.toBN(fee*(1/.0777)), 'ether');
+            const feeinwei = web3given.utils.toWei(web3given.utils.toBN(fee*1), 'ether');
 
             const estimatedGas = await comunityContract2.methods.createToken( qty, qty, feeinwei, true, true, false, qty, true, `${metadataURL}`, mintamount).estimateGas({
                 from: accountAddress,
