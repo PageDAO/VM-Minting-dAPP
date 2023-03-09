@@ -9,11 +9,11 @@ let MarketplaceContractAddr = ''
 
 switch (NET) {
     case 'optimism':
-        ComunityContractAddr = '0x03441d796423e0e5b150AbB7C5dd92b4eE80EA83'
-        UniftyContractAddr = '0xafc64807fe3cA0bE116F282937ae77E819168AAB'
+        ComunityContractAddr = '0x509D7A30F0d693DC841f161773CBb0E36DfF6d2C'
+        UniftyContractAddr = '0xBa0B3eb3aC3b4faC78ED26D15E7D2BfFE406e123'
         MembershipContractAddr = ''
-        Membership721ContractAddr = '0xd4b0f65C2eaa9b28B481c852e42eE01459141bD7'
-        MarketplaceContractAddr = '0x51B7F249A252b8068AbaC578E69AaEA009Ea3936'
+        Membership721ContractAddr = '0x8BD4E145e011406183e95a5Efc8D2F74C31439C8'
+        MarketplaceContractAddr = '0xd24b3de085cfd8c54b94fead08a7962d343e6de0'
         break;
 
     case 'mumbai':
